@@ -78,7 +78,34 @@ nav {
     margin: 30px
 }
 
+.single-movie {
+    display: grid;
+    grid-template-columns: 25px 20% 25px 1fr;
+}
+
 .single-movie img {
-    width: 20%;
-    margin: 30px;
+    width: 100%;
+    grid-column-start: 2;
+    margin-top: 25px;
+}
+
+.movie-info {
+    margin-top: 25px;
+    grid-column-start: 4;
+}
+
+.comment-section {
+    display:flex; 
+    flex-direction: column;
+    padding: 25px;
+}
+
+.comment-section input{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.comment-section button{
+    margin-top: 20px;
+    width: 100px;
 }
