@@ -1,0 +1,84 @@
+body {
+    font: 12px Verdana, sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 25px 85px 75px 75px 1fr 250px 25px;
+    background-color: black;
+    color: white;
+    font: 18px Verdana, sans-serif;
+    align-items: center;
+}
+
+#title {
+    grid-column-start: 2;
+    font-size: 20px;
+}
+
+#home {
+    grid-column-start: 3;
+    font-size: 18px;
+}
+
+#login {
+    grid-column-start: 4;
+    font-size: 18px;
+}
+
+#search{
+    grid-column-start: 6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-bar {
+    grid-column-start: 6;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#search-button {
+    grid-column-start: 7;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+}
+
+.login-content {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-content h1 {
+    text-align: center;
+}
+
+.login-content button {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-content input {
+    margin-bottom: 30px;
+}
+
+.movies img {
+    width: 25%;
+    margin: 30px
+}
+
+.single-movie img {
+    width: 20%;
+    margin: 30px;
+}
